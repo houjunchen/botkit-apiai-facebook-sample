@@ -51,7 +51,6 @@ if (!process.env.verify_token) {
 }
 
 var Botkit = require('botkit');
-var os = require('os');
 var commandLineArgs = require('command-line-args');
 var localtunnel = require('localtunnel');
 var apiai = require('apiai');
