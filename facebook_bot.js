@@ -74,8 +74,8 @@ var controller = Botkit.facebookbot({
     verify_token: process.env.verify_token,
 });
 
-var apiaibot = apiai(process.env.dashbot_key);
-var dashbot = require('dashbot')(process.env.apiai_token).facebook;
+var apiaibot = apiai(process.env.apiai_token);
+var dashbot = require('dashbot')(process.env.dashbot_key).facebook;
 
 controller.middleware.receive.use(dashbot.receive);
 controller.middleware.send.use(dashbot.send);
