@@ -13,14 +13,27 @@
     "url": "https://github.com/houjunchen/botkit-apiai-facebook-sample/issues"
   },
   "homepage": "https://github.com/houjunchen/botkit-apiai-facebook-sample#readme",
+  "scripts": {
+    "start": "better-npm-run start"
+  },
+  "betterScripts": {
+    "start": {
+      "command": "node ./facebook_bot.js"
+    }
+  },
   "dependencies": {
     "apiai": "^2.0.5",
     "body-parser": "^1.15.2",
+    "botimize": "^0.3.1",
+    "botimize-botkit-middleware": "^0.1.4",
     "botkit": "^0.2.2",
     "command-line-args": "^3.0.0",
     "dashbot": "^0.7.3",
     "express": "^4.14.0",
     "localtunnel": "^1.8.1",
     "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "better-npm-run": "0.0.11"
   }
 }
