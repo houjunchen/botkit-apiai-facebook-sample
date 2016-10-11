@@ -1,18 +1,18 @@
 {
-  "name": "botkit-dashbot-apiai-facebook-sample",
+  "name": "botkit-apiai-facebook-sample",
   "version": "1.0.0",
   "description": "Sample webhook implementation",
   "main": "facebook_bot.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/houjunchen/botkit-dashbot-apiai-facebook-sample.git"
+    "url": "git+https://github.com/houjunchen/botkit-apiai-facebook-sample.git"
   },
   "author": "Abner Chen",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/houjunchen/botkit-dashbot-apiai-facebook-sample/issues"
+    "url": "https://github.com/houjunchen/botkit-apiai-facebook-sample/issues"
   },
-  "homepage": "https://github.com/houjunchen/botkit-dashbot-apiai-facebook-sample#readme",
+  "homepage": "https://github.com/houjunchen/botkit-apiai-facebook-sample#readme",
   "dependencies": {
     "apiai": "^2.0.5",
     "body-parser": "^1.15.2",
